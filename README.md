@@ -13,6 +13,7 @@ By utilizing **electromyographic (EMG) signals**, the system captures electrical
   - **Envelope smoothing algorithm** to enhance signal accuracy.  
 - **Wireless Communication:** **ESP32 microcontrollers** for real-time data transmission.  
 - **Motor Control:** Translated muscle signals provide **directional commands** for wheelchair movement.  
+<img width="341" alt="image" src="https://github.com/user-attachments/assets/de6cd603-c5a8-4f9b-ba6e-f16c89ba65b0" />
 
 ## 🎯 System Capabilities  
 - **Hands-free wheelchair control** for users with limited mobility.  
@@ -33,10 +34,5 @@ By utilizing **electromyographic (EMG) signals**, the system captures electrical
 
 ## 🌍 Impact & Vision  
 This project aims to **empower individuals with disabilities** by providing them with a **scalable, cost-effective, and accessible** mobility solution. It serves as a strong foundation for **future advancements in assistive technology**, showcasing the potential of **EMG-based control systems** in creating a more inclusive world.  
-<img width="341" alt="image" src="https://github.com/user-attachments/assets/de6cd603-c5a8-4f9b-ba6e-f16c89ba65b0" />
 
 ---
-
-### 📬 Contact & Contributions  
-For further details or collaboration, feel free to open an **issue** or reach out.  
-Let's innovate for accessibility! 🚀  
