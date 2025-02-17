@@ -1,6 +1,6 @@
 # BCI-EMG-Project - Wireless EMG-Based Armband for Wheelchair Control  
 
-## 🏥 Project Overview <a href="https://drive.google.com/file/d/1yrmmO3o-nB0ciMY7XeSuRiaIwhBL2Qsh/view?usp=sharing">(Link to Project Report)</a>
+## 🏥 Project Overview <a href="https://drive.google.com/file/d/1yrmmO3o-nB0ciMY7XeSuRiaIwhBL2Qsh/view?usp=sharing" target="_blank">(Link to Project Report)</a>
 This project focuses on developing a **wireless, portable EMG-based armband** designed to control a wheelchair, providing an **intuitive and accessible Human-Machine Interface (HMI)**. The goal is to enhance **independence and mobility** for individuals with physical disabilities.  
 
 By utilizing **electromyographic (EMG) signals**, the system captures electrical activity from **skeletal muscles** and processes these signals to control a **robotic wheelchair**.  
