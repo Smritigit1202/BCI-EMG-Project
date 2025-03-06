@@ -5,6 +5,8 @@ This project focuses on developing a **wireless, portable EMG-based armband** de
 
 By utilizing **electromyographic (EMG) signals**, the system captures electrical activity from **skeletal muscles** and processes these signals to control a **robotic wheelchair**.  
 
+<video src="./setup video.mp4" width="320" height="480" controls></video>
+
 ## 🔧 Key Components & Technology  
 - **EMG Signal Acquisition:** Custom-designed armband using **Dry Electrodes**.  
 - **Signal Processing:**  
