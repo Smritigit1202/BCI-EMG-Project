@@ -9,8 +9,8 @@ const int rightForward = 33;
 const int rightBackward = 25;
 
 
-const char* ssid = "Aditya03";     // CHANGE TO YOUR WIFI SSID
-const char* password = "abcd1234"; // CHANGE TO YOUR WIFI PASSWORD
+const char* ssid = "ABCD";     // CHANGE TO YOUR WIFI SSID
+const char* password = "XYZ"; // CHANGE TO YOUR WIFI PASSWORD
 
 
 WiFiServer TCPserver(SERVER_PORT);
@@ -71,35 +71,55 @@ void loop() {
 
 
     // Process the command
-    if (command == '1') {
-      Serial.println("1 received"); // Turn motors on
-      // Run forward
-      digitalWrite(leftForward, LOW);
-      digitalWrite(leftBackward, HIGH);
-      digitalWrite(rightForward, LOW);
-      digitalWrite(rightBackward, HIGH);
-      delay(50);
-    } else if (command == '0') {
-      Serial.println("0 received");  // Turn motors off
-      // STOP
-      digitalWrite(leftForward, LOW);
-      digitalWrite(leftBackward, LOW);
-      digitalWrite(rightForward, LOW);
-      digitalWrite(rightBackward, LOW);
-      delay(50);
+    switch(command - '0'){
+      case 0:
+        Serial.println("0 received : Stopping"); // Turn motors off
+        // stop
+        digitalWrite(leftForward, LOW);
+        digitalWrite(leftBackward, LOW);
+        digitalWrite(rightForward, LOW);
+        digitalWrite(rightBackward, LOW);
+        delay(50);
+        break;
+      case 1:
+        Serial.println("1 received : Move Forward"); // Turn motors on
+        // forward
+        digitalWrite(leftForward, LOW);
+        digitalWrite(leftBackward, HIGH);
+        digitalWrite(rightForward, LOW);
+        digitalWrite(rightBackward, HIGH);
+        delay(50);
+      break;
+      case 2:
+        Serial.println("2 received : Move left"); // Turn left motors on
+        // left
+        digitalWrite(leftForward, LOW);
+        digitalWrite(leftBackward, HIGH);
+        digitalWrite(rightForward, LOW);
+        digitalWrite(rightBackward, LOW);
+        delay(50);
+      break;
+      case 3:
+        Serial.println("3 received : Move right"); // Turn right motors on
+        // right
+        digitalWrite(leftForward, LOW);
+        digitalWrite(leftBackward, LOW);
+        digitalWrite(rightForward, LOW);
+        digitalWrite(rightBackward, HIGH);
+        delay(50);
+      break;
+      default:
+        // stop by default
+        Serial.println("default");
+        digitalWrite(leftForward, LOW);
+        digitalWrite(leftBackward, LOW);
+        digitalWrite(rightForward, LOW);
+        digitalWrite(rightBackward, LOW);
+        delay(50);
+      break;
     }
-
 
     client.stop(); // Disconnect the client after processing
     Serial.println("Client disconnected.");
   }
 }
-
-
-
-
-
-
-
-
-
