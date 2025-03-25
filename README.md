@@ -7,7 +7,7 @@ By utilizing **electromyographic (EMG) signals**, the system captures electrical
 
 
 <video src="./setup video.mp4" width="320" height="480" controls></video>
-[Download Setup-video.mp4](https://github.com/Smritigit1202/BCI-EMG-Project/blob/main/setup-video.mp4)
+[Download Setup-video.mp4](https://github.com/Smritigit1202/BCI-EMG-Project/raw/main/setup-video.mp4)
 
 ## 🔧 Key Components & Technology  
 - **EMG Signal Acquisition:** Custom-designed armband using **Dry Electrodes**.  
