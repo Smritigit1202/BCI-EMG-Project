@@ -8,7 +8,7 @@ By utilizing **electromyographic (EMG) signals**, the system captures electrical
 
 <video src="./setup-video.mov" width="320" height="480" controls></video>
 
-<!-- [Download Setup-video.mp4](https://github.com/Smritigit1202/BCI-EMG-Project/raw/main/setup-video.mov) -->
+[Download Setup-video.mp4](https://github.com/Smritigit1202/BCI-EMG-Project/raw/refs/heads/main/setup-video.mov)
 
 
 
