@@ -40,6 +40,6 @@ By utilizing **electromyographic (EMG) signals**, the system captures electrical
 - **Scalability & Affordability:** Making the solution accessible for **global deployment**.  
 
 ## 🌍 Impact & Vision  
-This project aims to **empower individuals with disabilities** by providing them with a **scalable, cost-effective, and accessible** mobility solution. It serves as a strong foundation for **future advancements in assistive technology**, showcasing the potential of **EMG-based control systems** in creating a more inclusive world.  
+This project aims to **Empower individuals with disabilities** by providing them with a **scalable, cost-effective, and accessible** mobility solution. It serves as a strong foundation for **future advancements in assistive technology**, showcasing the potential of **EMG-based control systems** in creating a more inclusive world.  
 
 ---
