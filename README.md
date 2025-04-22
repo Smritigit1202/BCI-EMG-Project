@@ -5,12 +5,12 @@ This project focuses on developing a **wireless, portable EMG-based armband** de
 
 By utilizing **electromyographic (EMG) signals**, the system captures electrical activity from **skeletal muscles** and processes these signals to control a **robotic wheelchair**.  
 
-
+## Video Outputs
 <video src="./setup-video.mov" width="320" height="480" controls></video>
 
 [Download Setup-video.mp4](https://github.com/Smritigit1202/BCI-EMG-Project/raw/refs/heads/main/setup-video.mov)
 
-## Video Outputs
+
 
 
 
