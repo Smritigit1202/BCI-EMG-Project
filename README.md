@@ -10,6 +10,12 @@ By utilizing **electromyographic (EMG) signals**, the system captures electrical
 
 [Download Setup-video.mp4](https://github.com/Smritigit1202/BCI-EMG-Project/raw/refs/heads/main/setup-video.mov)
 
+## Video Outputs
+
+
+
+
+https://github.com/user-attachments/assets/da2c0cc7-18c0-4018-9d33-387b8fa58bd6
 
 
 
