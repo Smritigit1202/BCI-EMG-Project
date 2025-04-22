@@ -12,6 +12,10 @@ By utilizing **electromyographic (EMG) signals**, the system captures electrical
 
 
 
+
+https://github.com/user-attachments/assets/d63f5274-631b-4779-89f4-2e5aad58c1cd
+
+
 ## 🔧 Key Components & Technology  
 - **EMG Signal Acquisition:** Custom-designed armband using **Dry Electrodes**.  
 - **Signal Processing:**  
